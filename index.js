@@ -52,7 +52,7 @@ function elasticWidth(){
     
     let widthRems
     for(widthRems = 3 ; currentInput > 0; currentInput--){
-        widthRems += 2.4
+        widthRems += 2.5
     }
     
     units.style.width = `${widthRems}rem`
