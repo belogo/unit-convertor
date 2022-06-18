@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="hero">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <form id="form-units" action="">
+                    <input type="text" id="input-units" value="0">
+                </form>
+                <button id="convert-btn">Convert</button>
+            </div>
+            <div class="unit">
+                <h2>Length (Meter/Feet)</h2>
+                <p id="length" class="conveted"></p>
+            </div>
+            <div class="unit">
+                <h2>Volume (Liters/Gallons)</h2>
+                <p id="volume" class="conveted"></p>
+            </div>
+            <div class="unit">
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="mass" class="conveted"></p>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
